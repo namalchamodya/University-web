@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>University Website Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+
+        <!-- fonts-->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nova+Mono&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+        <link rel="icon" type="image/png" sizes="64x64"  href="images\logoICO.jpg">
+
+    </head>
+    <body>
+
+        <section class = "sub-header">
+            <nav>
+                <a href="index.html"><img src="images/LogoOut.png" ></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Courses
+            </h1>
+
+        </section>
+
+
+        <!--------courses -------->
+
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Hill Ford University provides a wide range of undergraduate, postgraduate, and diploma programs <br>to help students build strong careers and bright futures <br><br></p>
+
+                <div class="row">
+                    <div class="course-col">
+                        <h3>Diploma Programs</h3>
+                        <p>Our diploma courses are designed for quick entry into the job market. These programs focus on practical skills and industry-relevant knowledge, ideal for students seeking hands-on experience in a short time.</p>
+                    </div>
+                    <div class="course-col">
+                        <h3>Bachelor’s Degrees</h3>
+                        <p>Our undergraduate programs provide a strong academic foundation, blending classroom learning with real-world application. Choose from a variety of disciplines to match your interests and career goals.</p>
+                    </div>
+                    <div class="course-col">
+                        <h3>Postgraduate Studies</h3>
+                        <p>Our diploma courses are designed for quick entry into the job market. These programs focus on practical skills and industry-relevant knowledge, ideal for students seeking hands-on experience in a short time.</p>
+                    </div>
+                </div>
+
+
+        </section>
+
+
+        <!-- Facilities -->
+        <section class="Facilities">
+            <h1>Our Facilities</h1>
+            <p>Hill Ford University offers modern classrooms, well-equipped labs, a large library, sports areas, and comfortable student hostels to support learning and campus life.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/library.jpg" alt="">
+                    <h3>Library</h3>
+                    <p>Our library is a treasure trove of knowledge, housing thousands of books, journals, and digital resources to support your academic journey.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/hostel.jpg" alt="">
+                    <h3>Hostel</h3>
+                    <p>Our hostels provide a safe and comfortable living environment, fostering a sense of community among students from diverse backgrounds.</p>
+            </div>
+                <div class="facility-col">
+                    <img src="images/ground.jpg" alt="">
+                    <h3>Sports</h3>
+                    <p>We believe in a balanced education, and our sports facilities encourage students to stay active and healthy while pursuing their academic goals.</p>
+                </div>
+        </section>
+
+
+
+
+         <!-- footer -->
+          <section class="footer">
+            <h4>About Us</h4>
+            <p>Hill Ford University is a leading institution dedicated to providing quality education and fostering personal growth. <br> Our mission is to empower students to achieve their academic and career goals.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <p>Copyright © 2023 Hill Ford University | Made By @na_mal_chamo_d_ya</p>
+          </section>
+
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>

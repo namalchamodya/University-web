@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>University Website Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+
+        <!-- fonts-->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nova+Mono&family=Rubik:ital,wght@0,300..900;1,300..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+        <link rel="icon" type="image/png" sizes="64x64"  href="images\logoICO.jpg">
+
+    </head>
+    <body>
+
+        <section class = "sub-header">
+            <nav>
+                <a href="index.html"><img src="images/LogoOut.png" ></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificates & Online Programmes For 2021</h1>
+
+        </section>
+
+
+         <!-- Blog content -->
+          <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="images/dataScience.png" alt="">
+                    <h4>Certificate in Data Science</h4>
+                    <p>Our Data Science certificate program equips students with the skills needed to analyze and interpret complex data sets. Students will learn programming languages, statistical analysis, and machine learning techniques.</p>
+                    <p>
+                        <p>Data science is a rapidly growing field that combines statistical analysis, programming, and domain expertise to extract meaningful insights from data. Our certificate program is tailored to provide students with a strong foundation in these areas, ensuring they are well-prepared to tackle real-world challenges. Whether you are new to the field or looking to enhance your existing skills, this program offers a structured approach to mastering data science concepts.</p>
+                        <p>Throughout the program, students will engage in hands-on projects that simulate real-world scenarios, allowing them to apply theoretical knowledge in practical settings. From data cleaning and visualization to building predictive models, the curriculum is designed to cover the entire data science workflow. By the end of the program, students will have a portfolio of projects that demonstrate their expertise and readiness for the job market.</p>
+                        <p>In addition to technical skills, the program emphasizes critical thinking and problem-solving abilities. Students will learn how to approach complex problems, break them down into manageable components, and develop data-driven solutions. This holistic approach ensures that graduates are not only proficient in technical tools but also capable of making strategic decisions based on data insights.</p>
+                    </p>
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+    
+                        <form action="" class="comment-form">
+                            <input type="text" placeholder=" Your Name" required>
+                            <input type="email" placeholder=" Your Email" required>
+                            <textarea rows="5" placeholder=" Your Comment" required></textarea>
+                            <button type="submit" class="hero-btn red-btn">Submit</button>
+                        </form>
+    
+                    </div>
+                </div>
+
+
+
+
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business analysis</span>
+                        <span>20</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>15</span>
+                </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>29</span>
+                    </div>
+                    <div>
+                        <span>Artificial Intelligence</span>
+                        <span>25</span>
+                    </div>
+                    <div>
+                        <span>Web Development</span>
+                        <span>39</span>
+                    </div>
+                    <div>
+                        <span>Software Engineering</span>
+                        <span>12</span>
+                    </div>
+            </div>
+
+          </section>
+
+
+
+         <!-- footer -->
+          <section class="footer">
+            <h4>About Us</h4>
+            <p>Hill Ford University is a leading institution dedicated to providing quality education and fostering personal growth. <br> Our mission is to empower students to achieve their academic and career goals.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <p>Copyright © 2023 Hill Ford University | Made By @na_mal_chamo_d_ya</p>
+          </section>
+
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
